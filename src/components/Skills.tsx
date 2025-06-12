@@ -25,7 +25,7 @@ const Skills = () => {
       icon: Server,
       skills: [
         { name: "PHP", logo: "/assets/icons8-php-logo-40.svg" },
-        { name: "Flask", logo: "/assets/icons8-flask.svg" }
+        { name: "Flask", logo: "/assets/icons8-flask (1).svg" }
       ]
     },
     {
