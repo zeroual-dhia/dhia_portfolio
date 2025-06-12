@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: '/dhia_portfolio/' ,
+  base:process.env.VITE_BASE_PATH || "/" ,
   plugins: [
     react(),
     mode === 'development' &&
