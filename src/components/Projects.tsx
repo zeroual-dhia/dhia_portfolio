@@ -8,7 +8,8 @@ const Projects = () => {
       description: "Full-stack investment platform built with React, Vite, Tailwind, Flask, and SQLite. Features user authentication, portfolio tracking, and investment analytics.",
       technologies: ["React", "Vite", "Tailwind", "Flask", "SQLite"],
       category: "Web Application",
-      gradient: "from-primary to-secondary"
+      gradient: "from-primary to-secondary" ,
+      github: "https://github.com/k-a-r-s/stock-market-project"
     },
     {
       title: "GymMatch",
