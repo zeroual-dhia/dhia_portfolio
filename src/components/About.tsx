@@ -3,10 +3,11 @@ import { Brain, Code, Cpu, Database } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { icon: Brain, name: "Artificial Intelligence", level: 25 },
-    { icon: Code, name: "Software Engineering", level: 50 },
-    { icon: Database, name: "Database Management", level: 50 },
-    { icon: Cpu, name: "Algorithm Design", level: 55 }
+    { icon: Brain, name: "Artificial Intelligence", level: 40
+     },
+    { icon: Code, name: "Software Engineering", level: 60 },
+    { icon: Database, name: "Database Management", level: 60 },
+    { icon: Cpu, name: "Algorithm Design", level: 65 }
   ];
 
   return (
@@ -17,14 +18,14 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Second-year AI student passionate about building intelligent systems powered by artificial intelligence.          </p>
+          Third-year AI student passionate about building intelligent systems powered by artificial intelligence.          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary mb-4">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Currently in my second year at the National Higher School of AI, I'm deeply fascinated by the intersection 
+              Currently in my third year at the National Higher School of AI, I'm deeply fascinated by the intersection 
               of artificial intelligence and software engineering. My passion lies in creating intelligent systems that 
               solve real-world problems.
             </p>

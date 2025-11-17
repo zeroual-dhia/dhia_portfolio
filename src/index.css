@@ -140,3 +140,13 @@
   0% { transform: translate(0, 0); }
   100% { transform: translate(50px, 50px); }
 }
+
+/* Slow rotation for hero image effects */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}

@@ -25,7 +25,9 @@ const Skills = () => {
       icon: Server,
       skills: [
         { name: "PHP", logo: "/assets/icons8-php-logo-40.svg" },
-        { name: "Flask", logo: "/assets/icons8-flask (1).svg" }
+        { name: "Flask", logo: "/assets/icons8-flask (1).svg" },
+        { name: "Express.js", logo: "/assets/express.svg" },
+        { name: "Firebase", logo: "/assets/firebase.svg" }
       ]
     },
     {
@@ -34,8 +36,7 @@ const Skills = () => {
       skills: [
         { name: "MySQL", logo: "/assets/mysql-icon.svg" },
         { name: "SQLite", logo: "/assets/sqlite-icon.svg" },
-        { name: "Search Algorithms", logo: Code },
-        { name: "CSP", logo: Code }
+        { name: "Data Mining", logo: Code },
       ]
     },
     {
@@ -44,7 +45,6 @@ const Skills = () => {
       skills: [
         { name: "C++", logo: "/assets/icons8-c++.svg" },
         { name: "Python", logo: "/assets/icons8-python.svg" },
-        { name: "Java", logo: "/assets/icons8-java.svg" }
       ]
     }
   ];
