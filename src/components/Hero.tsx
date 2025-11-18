@@ -1,5 +1,5 @@
 
-import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Github, Linkedin, Mail, Instagram } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -27,9 +27,9 @@ const Hero = () => {
       <div className="relative z-10 max-w-2xl text-center lg:text-left">
         <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="text-gradient">AI Engineer</span>
+            <span className="text-gradient">Software Developer</span>
             <br />
-            <span className="text-foreground">& Developer</span>
+            <span className="text-foreground">& Future AI Engineer</span>
           </h1>
         </div>
         
@@ -52,6 +52,14 @@ const Hero = () => {
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:glow transition-all duration-300"
             >
               <Linkedin className="w-6 h-6" />
+            </a>
+            <a 
+              href="https://instagram.com/dhiaa_zeroual" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full border border-primary/30 hover:border-primary hover:glow transition-all duration-300"
+            >
+              <Instagram className="w-6 h-6" />
             </a>
             <a 
               href="mailto:dhiaeddinezeroual55@gmail.com" 

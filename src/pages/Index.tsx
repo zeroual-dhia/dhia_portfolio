@@ -19,8 +19,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2024 AI Developer Portfolio. Built with passion for innovation.
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Dhia Eddine Zeroual. Built with <span className="text-primary">React</span>, <span className="text-secondary">TypeScript</span> & <span className="text-accent">Tailwind CSS</span>
           </p>
         </div>
       </footer>
