@@ -23,13 +23,13 @@ const Contact = () => {
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-center space-x-4 bg-card border border-border rounded-lg p-6 hover:border-primary/30 transition-colors">
-                <div className="p-3 rounded-full bg-primary/10 border border-primary/30">
+                           <div className="flex items-center space-x-4 bg-card border border-border rounded-lg p-6 hover:border-primary/30 transition-colors">
+                <div className="p-3 rounded-full bg-primary/10 border border-primary/30 flex-shrink-0">
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <h4 className="font-medium">Email</h4>
-                  <a href="mailto:dhiaeddinezeroual55@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="mailto:dhiaeddinezeroual55@gmail.com" className="text-muted-foreground hover:text-primary transition-colors block break-words">
                     dhiaeddinezeroual55@gmail.com
                   </a>
                 </div>
